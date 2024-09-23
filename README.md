@@ -5,7 +5,7 @@
 
 Sample HTML reports for web pages and REST api tests.
 
-https://qa-demo.gitlab.io/reports
+https://harmin-parra.github.io/reports/
 
 
 ## Test targets
