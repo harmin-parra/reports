@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Test reports</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+      body {
+        font-family: Verdana;
+      }
+      table {
+        text-align: center;
+        border: 0px;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 80%;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+      .language {
+        height: 180px;
+        width: 180px;
+      }
+      .language:hover {
+        background-color: lavender;
+      }
+      .reports {
+        height: 80px;
+        width: 80px;
+      }
+      .reports:hover {
+        background-color: lavender;
+      }
+      .tool {
+        height: 32px;
+        width: 32px;
+      }
+      #other img {
+        padding: 10px;
+      }
+      body:has(#link1:hover) #img1 {
+        background: lavender;
+      }
+      body:has(#link2:hover) #img2 {
+        background: lavender;
+      }
+      body:has(#link3:hover) #img3 {
+        background: lavender;
+      }
+      body:has(#link4:hover) #img4 {
+        background: lavender;
+      }
+      body:has(#link5:hover) #img5 {
+        background: lavender;
+      }
+      body:has(#link6:hover) #img6 {
+        background: lavender;
+      }
+      body:has(#link7:hover) #img7 {
+        background: lavender;
+      }
+      body:has(#link8:hover) #img8 {
+        background: lavender;
+      }
+      body:has(#link9:hover) #img9 {
+        background: lavender;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="text-align:center;">Sample HTML test reports</h1>
+
+    <br>
+
+    <table>
+      <tbody>
+        <tr>
+          <td rowspan="2" style="width: 10%"><h4>Allure reports</h4></td>
+          <td>
+            <a href="report-java/" target="_blank" rel="noopener noreferrer"><img src="logos/java.png" class="language" id="img1"/></a>
+          </td>
+          <td>
+            <a href="report-python/" target="_blank" rel="noopener noreferrer"><img src="logos/python.png" class="language" id="img2"/></a>
+          </td>
+          <td>
+            <a href="report-nodejs/" target="_blank" rel="noopener noreferrer"><img src="logos/nodejs.png" class="language" id="img3"/></a>
+          </td>
+        </tr>
+
+        <!--tr>
+          <td style="height:30px"></td>
+          <td></td>
+          <td></td>
+        </tr-->
+
+        <tr>
+          <td>
+            <a href="report-java/" target="_blank" rel="noopener noreferrer" id="link1">Allure Java<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-python/" target="_blank" rel="noopener noreferrer" id="link2">Allure Python<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-nodejs/" target="_blank" rel="noopener noreferrer" id="link3">Allure Node.js<br>report</p></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+
+    <table id="other">
+      <tbody>
+        <tr>
+          <td rowspan="2" style="width: 10%"><h4>Other reports</h4></td>
+          <td style="width: 15%">
+            <a href="report-playwright/" target="_blank" rel="noopener noreferrer"><img src="logos/playwright.png" class="reports" id="img4"/></a>
+          </td>
+          <td style="width: 15%">
+            <a href="report-cypress/" target="_blank" rel="noopener noreferrer"><img src="logos/cypress.png" class="reports" id="img5"/></a>
+          </td>
+          <td style="width: 15%">
+            <a href="report-karate/karate-summary.html" target="_blank" rel="noopener noreferrer"><img src="logos/karate.png" class="reports" id="img6"/></a>
+          </td>
+          <td style="width: 16%">
+            <a href="report-pytest/" target="_blank" rel="noopener noreferrer"><img src="logos/pytest.png" class="reports" id="img7"/></a>
+          </td>
+          <td style="width: 16%">
+            <a href="report-robot/report.html" target="_blank" rel="noopener noreferrer"><img src="logos/robot-framework.png" class="reports" id="img8"/></a>
+          </td>
+          <td style="width: 16%">
+            <a href="report-serenity/" target="_blank" rel="noopener noreferrer"><img src="logos/serenity.png" class="reports" id="img9"/></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a href="report-playwright/" target="_blank" rel="noopener noreferrer" id="link4">Playwright<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-cypress/" target="_blank" rel="noopener noreferrer" id="link5">Cypress<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-karate/karate-summary.html" target="_blank" rel="noopener noreferrer" id="link6">Karate<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-pytest" target="_blank" rel="noopener noreferrer" id="link7">Pytest<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-robot/report.html" target="_blank" rel="noopener noreferrer" id="link8">Robot Framework<br>report</p></a>
+          </td>
+          <td>
+            <a href="report-serenity/" target="_blank" rel="noopener noreferrer" id="link9">Serenity BDD<br>report</p></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <br><br><br><br><br>
+
+    <p style="text-align:center">Examples developed with the following testing tools:</p>
+
+    <table style="width: 60%; font-size: small">
+      <tr>
+        <td>
+          <img src="logos/selenium.png" class="tool" />
+        </td>
+        <td>
+          <img src="logos/cypress.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/playwright.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/cucumber.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/karate.png" class="tool"/>
+        </td>
+        <td style="width: 13%">
+          <img src="logos/rest-assured.png" class="tool"/>
+        </td>
+        <td style="width: 13%">
+          <img src="logos/robot-framework.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/serenity.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/docker.png" class="tool"/>
+        </td>
+        <td>
+          <img src="logos/allure.png" class="tool"/>
+        </td>
+      </tr>      
+
+      <tr>
+        <td>
+          Selenium
+        </td>
+        <td>
+          Cypress
+        </td>
+        <td>
+          Playwright
+        </td>
+        <td>
+          Cucumber
+        </td>
+        <td>
+          karate
+        </td>
+        <td>
+          REST-assured
+        </td>
+        <td>
+          Robot Framework
+        </td>
+        <td>
+          Serenity BDD
+        </td>
+        <td>
+          Docker
+        </td>
+        <td>
+          Allure report
+        </td>
+      </tr>      
+    </table>
+
+    <br><br><br>
+
+    <table  style="width: 95%">
+      <tr>
+        <td>
+          <img src="logos/gitlab.png" style="float:center; height:24px; width:24px;" />
+        </td>
+        <td style="text-align:left;">
+          <p>Source code of tests: <a href="https://gitlab.com/harmin-demo/tests" target="_blank" rel="noopener noreferrer">https://gitlab.com/harmin-demo/tests</a></p>
+        </td>
+        <td style="text-align:right;">
+          <p>Author: Harmin Parra Rueda</p>
+        </td>
+      </tr>      
+    </table>
+   
+  </body>
+</html>
