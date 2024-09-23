@@ -1,0 +1,9 @@
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: publish
+        run: |
+          mv report-* docs/
