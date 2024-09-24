@@ -1,5 +1,5 @@
-1727169874190	geckodriver	INFO	Listening on 127.0.0.1:54753
-1727169874230	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "42529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBmowAp"
+1727170474642	geckodriver	INFO	Listening on 127.0.0.1:42627
+1727170474681	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecB87mn"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -7,14 +7,14 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1727169874461	Marionette	INFO	Marionette enabled
-1727169874522	Marionette	INFO	Listening on port 42839
-Read port: 42839
-WebDriver BiDi listening on ws://127.0.0.1:42529
-1727169874583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1727170474917	Marionette	INFO	Marionette enabled
+1727170474980	Marionette	INFO	Listening on port 39825
+Read port: 39825
+WebDriver BiDi listening on ws://127.0.0.1:49645
+1727170475043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:42529/devtools/browser/1868d2f5-b125-46ad-ae72-6ad567bd13cf
+DevTools listening on ws://127.0.0.1:49645/devtools/browser/3c37360c-58c9-4972-8ccf-9fcf8de3d1b9
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
-1727169877039	Marionette	INFO	Stopped listening on port 42839
+1727170477595	Marionette	INFO	Stopped listening on port 39825
