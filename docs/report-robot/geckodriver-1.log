@@ -1,5 +1,5 @@
-1727170463666	geckodriver	INFO	Listening on 127.0.0.1:41273
-1727170463708	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "37429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezYHVgi"
+1727177553878	geckodriver	INFO	Listening on 127.0.0.1:58541
+1727177553918	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "60279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXfen5B"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -7,15 +7,15 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1727170463940	Marionette	INFO	Marionette enabled
-1727170464002	Marionette	INFO	Listening on port 34703
-Read port: 34703
-WebDriver BiDi listening on ws://127.0.0.1:37429
-1727170464066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1727177554153	Marionette	INFO	Marionette enabled
+1727177554215	Marionette	INFO	Listening on port 40081
+Read port: 40081
+WebDriver BiDi listening on ws://127.0.0.1:60279
+1727177554282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:37429/devtools/browser/31a0daee-b19b-4ec2-8c62-541ff22679c2
+DevTools listening on ws://127.0.0.1:60279/devtools/browser/d661d555-02bb-488e-9dd8-20d9269b87b5
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1727170493946	addons.xpi	ERROR	System addon update list error SyntaxError: The URI is malformed.
+1727177584157	addons.xpi	ERROR	System addon update list error SyntaxError: The URI is malformed.

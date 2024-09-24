@@ -1,5 +1,5 @@
-1727170466521	geckodriver	INFO	Listening on 127.0.0.1:42885
-1727170466562	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "52191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFDBucw"
+1727177556797	geckodriver	INFO	Listening on 127.0.0.1:45077
+1727177556838	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileE0Qnl2"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -7,14 +7,14 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1727170466793	Marionette	INFO	Marionette enabled
-1727170466854	Marionette	INFO	Listening on port 46549
-Read port: 46549
-WebDriver BiDi listening on ws://127.0.0.1:52191
-1727170466915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1727177557073	Marionette	INFO	Marionette enabled
+1727177557134	Marionette	INFO	Listening on port 41265
+Read port: 41265
+WebDriver BiDi listening on ws://127.0.0.1:41057
+1727177557194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52191/devtools/browser/1188c70e-eb84-400b-ad00-fbaea4128c03
+DevTools listening on ws://127.0.0.1:41057/devtools/browser/e2518f6d-ea88-4bed-8408-1c1e1628c01c
 console.error: ({})
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1727170496804	addons.xpi	ERROR	System addon update list error SyntaxError: The URI is malformed.
+1727177587086	addons.xpi	ERROR	System addon update list error SyntaxError: The URI is malformed.
