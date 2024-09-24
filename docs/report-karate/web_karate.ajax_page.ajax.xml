@@ -1,0 +1,11 @@
+<testsuite failures="0" name="web_karate/ajax_page/ajax.feature" skipped="0" tests="1" time="8.349489"><testcase classname="web_karate.ajax_page.ajax" name="web_karate.ajax_page.ajax_1" time="8.349489"><system-out>* driver url_ajax_page .................................................... passed
+* screenshot() ............................................................ passed
+* click('#button') ........................................................ passed
+* match enabled('#button') == false ....................................... passed
+* screenshot() ............................................................ passed
+* waitFor('#title') ....................................................... passed
+* match text('#title') == "AJAX" .......................................... passed
+* match enabled('#button') == true ........................................ passed
+* screenshot() ............................................................ passed
+</system-out></testcase>
+</testsuite>
