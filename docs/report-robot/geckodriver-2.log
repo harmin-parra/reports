@@ -1,5 +1,6 @@
-1751207330738	geckodriver	INFO	Listening on 127.0.0.1:48233
-1751207330777	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--m ... ss" "--remote-debugging-port" "52933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejviCPg"
+1752009417031	geckodriver	INFO	Listening on 127.0.0.1:34905
+1752009417047	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "49001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejvzBsT"
+[3658] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -7,13 +8,13 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1751207331026	Marionette	INFO	Marionette enabled
-1751207331105	Marionette	INFO	Listening on port 38995
-WebDriver BiDi listening on ws://127.0.0.1:52933
-Read port: 38995
-1751207331275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1752009417248	Marionette	INFO	Marionette enabled
+1752009417330	Marionette	INFO	Listening on port 44861
+WebDriver BiDi listening on ws://127.0.0.1:49001
+Read port: 44861
+1752009417413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-console.error: ({})
-console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
-1751207363682	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: CustomizableUI: 
+  Could not localize property 'fxms-bmb-button.tooltiptext'.
+console.error: [Exception... "Favicon at "http://qa-demo.gitlab.io/favicon.ico" failed to load."  nsresult: "0x8053040c (<unknown>)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 225"  data: no]
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]

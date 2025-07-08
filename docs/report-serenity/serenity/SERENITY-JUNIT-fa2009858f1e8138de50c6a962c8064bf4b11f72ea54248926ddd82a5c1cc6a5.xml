@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="starter.acceptancetests.TestWebForm" skipped="0" tests="1" time="2.9" timestamp="2025-06-29 02:32:40"><testcase classname="starter.acceptancetests.TestWebForm" name="Fill-in WebForm page"><error message="File not found: /tmp/test/file.xml" type="net.thucydides.core.pages.components.FileToUploadCouldNotBeFoundException">File not found: /tmp/test/file.xml</error><system-err>File not found: /tmp/test/file.xml
-starter.pageobjects.WebForm.setFile(WebForm.java:54)
-starter.actions.WebFormSteps.fill(WebFormSteps.java:23)
-starter.acceptancetests.TestWebForm.fillInWebForm(TestWebForm.java:20)
-</system-err></testcase></testsuite>
