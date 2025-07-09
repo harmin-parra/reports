@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="demo.tests.CatalogTest" skipped="0" tests="1" time="0.85" timestamp="2025-07-08 09:20:19"><testcase classname="demo.tests.CatalogTest" name="Delete object"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="demo.tests.CatalogTest" skipped="0" tests="1" time="0.78" timestamp="2025-07-09 09:29:13"><testcase classname="demo.tests.CatalogTest" name="Delete object"/></testsuite>
