@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"0aca1208-3ae2-4959-9502-5fccaa38d721",karate_version:"1.5.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"b46b52b5-69ce-40f9-b766-b30708ac3522",karate_version:"1.5.1",karate_meta:null});
   }
 });
 </script>
@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-08-02 06:02:24 PM</div>
+    <div>2025-08-03 05:39:03 AM</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:8]"><span>[1:8]</span> <span>Delete pet</span></a>
           </div>
         </div>
@@ -80,8 +80,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>80</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>462</span>
             </div>
           </div>
           <div class="step-row">
@@ -113,9 +113,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">18:02:24.501 browser = firefox 
-18:02:24.501 engine = selenium 
-18:02:24.501 headless = true 
+  <div class="preformatted" data-parent="0.4">05:39:03.125 browser = firefox 
+05:39:03.126 engine = selenium 
+05:39:03.126 headless = true 
 </div>   
 
   
@@ -163,7 +163,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell passed">37</div>
+    <div class="time-cell passed">234</div>
   </div>
 
    
@@ -172,7 +172,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">18:02:24.504 request:
+  <div class="preformatted" data-parent="0.10">05:39:03.131 request:
 1 &gt; DELETE https://petstore.swagger.io/v2/pet/5432
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
@@ -180,9 +180,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-18:02:24.538 response time in milliseconds: 33
+05:39:03.362 response time in milliseconds: 231
 1 &lt; 200
-1 &lt; Date: Sat, 02 Aug 2025 18:02:24 GMT
+1 &lt; Date: Sun, 03 Aug 2025 05:39:03 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -295,7 +295,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">36</div>
+    <div class="time-cell passed">226</div>
   </div>
 
    
@@ -304,7 +304,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.15">18:02:24.543 request:
+  <div class="preformatted" data-parent="0.15">05:39:03.366 request:
 2 &gt; GET https://petstore.swagger.io/v2/pet/5432
 2 &gt; Host: petstore.swagger.io
 2 &gt; Connection: Keep-Alive
@@ -312,9 +312,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &gt; Accept-Encoding: gzip,deflate
 
 
-18:02:24.576 response time in milliseconds: 32
-2 &lt; 200
-2 &lt; Date: Sat, 02 Aug 2025 18:02:24 GMT
+05:39:03.590 response time in milliseconds: 224
+2 &lt; 404
+2 &lt; Date: Sun, 03 Aug 2025 05:39:03 GMT
 2 &lt; Content-Type: application/json
 2 &lt; Transfer-Encoding: chunked
 2 &lt; Connection: keep-alive
@@ -322,7 +322,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 2 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 2 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 2 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;id&quot;:5432,&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;available&quot;}
+{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
 
 </div>   
 
@@ -337,13 +337,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.16">
-      <div class="step-ref failed">16</div>
+      <div class="step-ref passed">16</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 404</span>
       </div>
     </div>
-    <div class="time-cell failed">6</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -352,12 +352,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.16">18:02:24.585 classpath:rest_api/petstore/3_delete.feature:16
-Then status 404
-status code was: 200, expected: 404, response time in milliseconds: 32, url: https://petstore.swagger.io/v2/pet/5432, response: 
-{&quot;id&quot;:5432,&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;available&quot;}
-classpath:rest_api/petstore/3_delete.feature:16
-</div>   
+     
 
   
 
@@ -370,13 +365,13 @@ classpath:rest_api/petstore/3_delete.feature:16
 
   <div class="step-row">
     <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+      <div class="step-ref passed">17</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response contains {type: &#39;error&#39;}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -398,13 +393,13 @@ classpath:rest_api/petstore/3_delete.feature:16
 
   <div class="step-row">
     <div class="step-container" id="0.18">
-      <div class="step-ref skipped">18</div>
+      <div class="step-ref passed">18</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response contains {message: &#39;Pet not found&#39;}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
