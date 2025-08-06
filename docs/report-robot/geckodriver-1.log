@@ -1,6 +1,6 @@
-1754477764726	geckodriver	INFO	Listening on 127.0.0.1:37729
-1754477764741	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "45813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQnw2b2"
-[3399] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1754518022351	geckodriver	INFO	Listening on 127.0.0.1:59965
+1754518022366	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "51331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSGNlYo"
+[3400] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,11 +8,11 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1754477764936	Marionette	INFO	Marionette enabled
-1754477765010	Marionette	INFO	Listening on port 44669
-WebDriver BiDi listening on ws://127.0.0.1:45813
-Read port: 44669
-1754477765115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1754518022572	Marionette	INFO	Marionette enabled
+1754518022649	Marionette	INFO	Listening on port 45467
+WebDriver BiDi listening on ws://127.0.0.1:51331
+Read port: 45467
+1754518022730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: CustomizableUI: 
   Could not localize property 'fxms-bmb-button.tooltiptext'.

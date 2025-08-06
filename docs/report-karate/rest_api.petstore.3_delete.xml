@@ -1,12 +1,19 @@
-<testsuite failures="0" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.072302"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.072302"><system-out>* url url_rest_api ........................................................ passed
+<testsuite failures="1" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.028944"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.028944"><failure message="status code was: 404, expected: 200, response time in milliseconds: 20, url: https://petstore.swagger.io/v2/pet/5432, response: &#10;&#10;classpath:rest_api/petstore/3_delete.feature:11">* url url_rest_api ........................................................ passed
 Given path '5432' ......................................................... passed
 When method delete ........................................................ passed
-Then status 200 ........................................................... passed
-And match response contains {message: '5432'} ............................. passed
-Given path '5432' ......................................................... passed
-When method get ........................................................... passed
-Then status 404 ........................................................... passed
-And match response contains {type: 'error'} ............................... passed
-And match response contains {message: 'Pet not found'} .................... passed
-</system-out></testcase>
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 20, url: https://petstore.swagger.io/v2/pet/5432, response: 
+
+classpath:rest_api/petstore/3_delete.feature:11
+	at &lt;feature&gt;.: Then status 200 (classpath:rest_api/petstore/3_delete.feature:11:11)
+
+And match response contains {message: '5432'} ............................. skipped
+Given path '5432' ......................................................... skipped
+When method get ........................................................... skipped
+Then status 404 ........................................................... skipped
+And match response contains {type: 'error'} ............................... skipped
+And match response contains {message: 'Pet not found'} .................... skipped
+</failure></testcase>
 </testsuite>
