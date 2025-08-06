@@ -432,7 +432,6 @@ span.error,
 
 .extras_header_block {
     white-space: pre-wrap;
-    overflow-wrap: break-word;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -500,9 +499,7 @@ span.error,
 }
 
 code,
-.extras_attachment_block {
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
+.extras_attachment_code {
     padding: .2em .4em;
     color: black;
     background-color: #818b981f;
