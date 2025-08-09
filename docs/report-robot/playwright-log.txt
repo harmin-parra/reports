@@ -1,120 +1,120 @@
-{"level":30,"time":"2025-08-09T08:54:09.978Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Listening on 127.0.0.1:49627"}
-(node:2478) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-08-09T09:02:50.088Z","pid":2486,"hostname":"8420405ca42a","msg":"Listening on 127.0.0.1:35975"}
+(node:2486) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.006Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.007Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.117Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.117Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.012Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.012Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.022Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.022Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.024Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.024Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.123Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.123Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.132Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.132Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.134Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.134Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.034Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.035Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.144Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.144Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.040Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.040Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.052Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.052Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.054Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.054Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.149Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.149Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.159Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.159Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.161Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.161Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.066Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.067Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.069Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.069Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.173Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.173Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.175Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.175Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.080Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.081Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.186Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.186Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13124:59)
-    at PlaywrightServer.setTimeout (/root/venv/lib/python3.11/site-packages/Browser/wrapper/index.js:13372:57)
-    at Object.onReceiveHalfClose (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/root/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/root/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:529:35)
     at endReadableNT (node:internal/streams/readable:1400:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-09T08:54:10.086Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:10.086Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-09T08:54:21.126Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-08-09T08:54:21.126Z","pid":2478,"hostname":"3d6b7fbf7d45","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-09T09:02:50.191Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:02:50.191Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-09T09:03:01.888Z","pid":2486,"hostname":"8420405ca42a","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-09T09:03:01.889Z","pid":2486,"hostname":"8420405ca42a","msg":"End of node method closeAllBrowsers"}
