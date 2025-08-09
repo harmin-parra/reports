@@ -1,0 +1,21 @@
+1754744084181	geckodriver	INFO	Listening on 127.0.0.1:54439
+1754744084196	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "33567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFxEIZQ"
+[3421] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: No GPUs detected via PCI
+
+1754744084394	Marionette	INFO	Marionette enabled
+1754744084473	Marionette	INFO	Listening on port 42555
+WebDriver BiDi listening on ws://127.0.0.1:33567
+Read port: 42555
+1754744084575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: CustomizableUI: 
+  Could not localize property 'fxms-bmb-button.tooltiptext'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]

@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"e49db4df-d4b1-4d7c-8822-820fd03de2f3",karate_version:"1.5.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"82eaabfd-f06b-466b-ac73-8723844ccf05",karate_version:"1.5.1",karate_meta:null});
   }
 });
 </script>
@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-08-09 12:24:40 PM</div>
+    <div>2025-08-09 12:59:09 PM</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:9]"><span>[1:9]</span> <span></span></a>
           </div>
         </div>
@@ -80,8 +80,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>332</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2462</span>
             </div>
           </div>
           <div class="step-row">
@@ -100,11 +100,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div class="step-container" id="0.4">
       <div class="step-ref bg-step">4</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>driver url_form_page</span>
       </div>
     </div>
-    <div class="time-cell failed">332</div>
+    <div class="time-cell passed">1872</div>
   </div>
 
    
@@ -113,15 +113,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">12:24:40.325 browser = chrome 
-12:24:40.325 engine = selenium 
-12:24:40.325 headless = true 
-12:24:40.328 preferred port 9515 not available, will use: 42257
-12:24:40.659 driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&#39;t use --user-data-dir&quot;,&quot;stacktrace&quot;:&quot;#0 0x55823df6826a \u003Cunknown&gt;\n#1 0x55823da12ab0 \u003Cunknown&gt;\n#2 0x55823da4d8ac \u003Cunknown&gt;\n#3 0x55823da48307 \u003Cunknown&gt;\n#4 0x55823da98696 \u003Cunknown&gt;\n#5 0x55823da97d56 \u003Cunknown&gt;\n#6 0x55823da89f73 \u003Cunknown&gt;\n#7 0x55823da56aeb \u003Cunknown&gt;\n#8 0x55823da57751 \u003Cunknown&gt;\n#9 0x55823df2cb7b \u003Cunknown&gt;\n#10 0x55823df30959 \u003Cunknown&gt;\n#11 0x55823df13959 \u003Cunknown&gt;\n#12 0x55823df31518 \u003Cunknown&gt;\n#13 0x55823def810f \u003Cunknown&gt;\n#14 0x55823df55918 \u003Cunknown&gt;\n#15 0x55823df55af6 \u003Cunknown&gt;\n#16 0x55823df67586 \u003Cunknown&gt;\n#17 0x7f1aeb8d51f5 \u003Cunknown&gt;\n&quot;}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}
-12:24:40.659 classpath:web/form_page/web_form.feature:4
-* driver url_form_page
-driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&#39;t use --user-data-dir&quot;,&quot;stacktrace&quot;:&quot;#0 0x55823df6826a \u003Cunknown&gt;\n#1 0x55823da12ab0 \u003Cunknown&gt;\n#2 0x55823da4d8ac \u003Cunknown&gt;\n#3 0x55823da48307 \u003Cunknown&gt;\n#4 0x55823da98696 \u003Cunknown&gt;\n#5 0x55823da97d56 \u003Cunknown&gt;\n#6 0x55823da89f73 \u003Cunknown&gt;\n#7 0x55823da56aeb \u003Cunknown&gt;\n#8 0x55823da57751 \u003Cunknown&gt;\n#9 0x55823df2cb7b \u003Cunknown&gt;\n#10 0x55823df30959 \u003Cunknown&gt;\n#11 0x55823df13959 \u003Cunknown&gt;\n#12 0x55823df31518 \u003Cunknown&gt;\n#13 0x55823def810f \u003Cunknown&gt;\n#14 0x55823df55918 \u003Cunknown&gt;\n#15 0x55823df55af6 \u003Cunknown&gt;\n#16 0x55823df67586 \u003Cunknown&gt;\n#17 0x7f1aeb8d51f5 \u003Cunknown&gt;\n&quot;}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}
-classpath:web/form_page/web_form.feature:4
+  <div class="preformatted" data-parent="0.4">12:59:06.300 browser = firefox 
+12:59:06.301 engine = selenium 
+12:59:06.301 headless = true 
+12:59:06.303 preferred port 4444 not available, will use: 37149
 </div>   
 
   
@@ -135,20 +130,20 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.10">
-      <div class="step-ref skipped">10</div>
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">130</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.10"><img src="web.form_page.web_form_1_1754744348304.png"/></div>
 
      
 
@@ -163,13 +158,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
+      <div class="step-ref passed">11</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>input(&#39;#my-text-id&#39;, &#39;login&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">130</div>
   </div>
 
    
@@ -191,13 +186,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>input(&#39;input[name=my-password]&#39;, &#39;password&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">28</div>
   </div>
 
    
@@ -219,13 +214,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>input(&#39;textarea[name=my-textarea]&#39;, &#39;Hello, World!&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">22</div>
   </div>
 
    
@@ -247,13 +242,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.14">
-      <div class="step-ref skipped">14</div>
+      <div class="step-ref passed">14</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>select(&#39;select[name=my-select]&#39;, 2)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">41</div>
   </div>
 
    
@@ -282,13 +277,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.16">
-      <div class="step-ref skipped">16</div>
+      <div class="step-ref passed">16</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>input(&#39;input[name=my-datalist]&#39;, &#39;Los Angeles&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">26</div>
   </div>
 
    
@@ -310,13 +305,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+      <div class="step-ref passed">17</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>script(&quot;document.getElementsByName(&#39;my-colors&#39;)[0].value = &#39;#00FF00&#39;;&quot;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -338,13 +333,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.18">
-      <div class="step-ref skipped">18</div>
+      <div class="step-ref passed">18</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>script(&quot;document.getElementsByName(&#39;my-date&#39;)[0].value = &#39;01/01/2024&#39;;&quot;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -366,13 +361,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.19">
-      <div class="step-ref skipped">19</div>
+      <div class="step-ref passed">19</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>click(&#39;//body&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -394,13 +389,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.20">
-      <div class="step-ref skipped">20</div>
+      <div class="step-ref passed">20</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>script(&quot;document.getElementsByName(&#39;my-range&#39;)[0].value = 1;&quot;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -422,20 +417,20 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.21">
-      <div class="step-ref skipped">21</div>
+      <div class="step-ref passed">21</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">83</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.21"><img src="web.form_page.web_form_1_1754744348668.png"/></div>
 
      
 
@@ -450,13 +445,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.22">
-      <div class="step-ref skipped">22</div>
+      <div class="step-ref passed">22</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>submit().click(&#39;button&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">54</div>
   </div>
 
    
@@ -478,20 +473,20 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.23">
-      <div class="step-ref skipped">23</div>
+      <div class="step-ref passed">23</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">39</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.23"><img src="web.form_page.web_form_1_1754744348764.png"/></div>
 
      
 
@@ -513,13 +508,13 @@ classpath:web/form_page/web_form.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.25">
-      <div class="step-ref skipped">25</div>
+      <div class="step-ref passed">25</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match text(&#39;//h1&#39;) == &quot;Form submitted&quot;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
