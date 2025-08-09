@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"fa1ca7bf-f50b-4dac-9c75-0993b632e425",karate_version:"1.5.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"f2274978-21d2-4588-9b13-791632b984e8",karate_version:"1.5.1",karate_meta:null});
   }
 });
 </script>
@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,12 +49,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-08-09 09:06:58 AM</div>
+    <div>2025-08-09 09:23:47 AM</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:8]"><span>[1:8]</span> <span></span></a>
           </div>
         </div>
@@ -80,8 +80,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>594</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>8871</span>
             </div>
           </div>
           <div class="step-row">
@@ -100,11 +100,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div class="step-container" id="0.4">
       <div class="step-ref bg-step">4</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>driver url_ajax_page</span>
       </div>
     </div>
-    <div class="time-cell failed">594</div>
+    <div class="time-cell passed">2518</div>
   </div>
 
    
@@ -113,14 +113,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">09:06:57.745 browser = chrome 
-09:06:57.746 engine = selenium 
-09:06:57.746 headless = true 
-09:06:58.353 driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&#39;t use --user-data-dir&quot;,&quot;stacktrace&quot;:&quot;#0 0x55e45d0ef26a \u003Cunknown&gt;\n#1 0x55e45cb99ab0 \u003Cunknown&gt;\n#2 0x55e45cbd48ac \u003Cunknown&gt;\n#3 0x55e45cbcf307 \u003Cunknown&gt;\n#4 0x55e45cc1f696 \u003Cunknown&gt;\n#5 0x55e45cc1ed56 \u003Cunknown&gt;\n#6 0x55e45cc10f73 \u003Cunknown&gt;\n#7 0x55e45cbddaeb \u003Cunknown&gt;\n#8 0x55e45cbde751 \u003Cunknown&gt;\n#9 0x55e45d0b3b7b \u003Cunknown&gt;\n#10 0x55e45d0b7959 \u003Cunknown&gt;\n#11 0x55e45d09a959 \u003Cunknown&gt;\n#12 0x55e45d0b8518 \u003Cunknown&gt;\n#13 0x55e45d07f10f \u003Cunknown&gt;\n#14 0x55e45d0dc918 \u003Cunknown&gt;\n#15 0x55e45d0dcaf6 \u003Cunknown&gt;\n#16 0x55e45d0ee586 \u003Cunknown&gt;\n#17 0x7f7c4e667aa4 \u003Cunknown&gt;\n#18 0x7f7c4e6f4a34 __clone\n&quot;}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}
-09:06:58.356 classpath:web/ajax_page/ajax.feature:4
-* driver url_ajax_page
-driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&#39;t use --user-data-dir&quot;,&quot;stacktrace&quot;:&quot;#0 0x55e45d0ef26a \u003Cunknown&gt;\n#1 0x55e45cb99ab0 \u003Cunknown&gt;\n#2 0x55e45cbd48ac \u003Cunknown&gt;\n#3 0x55e45cbcf307 \u003Cunknown&gt;\n#4 0x55e45cc1f696 \u003Cunknown&gt;\n#5 0x55e45cc1ed56 \u003Cunknown&gt;\n#6 0x55e45cc10f73 \u003Cunknown&gt;\n#7 0x55e45cbddaeb \u003Cunknown&gt;\n#8 0x55e45cbde751 \u003Cunknown&gt;\n#9 0x55e45d0b3b7b \u003Cunknown&gt;\n#10 0x55e45d0b7959 \u003Cunknown&gt;\n#11 0x55e45d09a959 \u003Cunknown&gt;\n#12 0x55e45d0b8518 \u003Cunknown&gt;\n#13 0x55e45d07f10f \u003Cunknown&gt;\n#14 0x55e45d0dc918 \u003Cunknown&gt;\n#15 0x55e45d0dcaf6 \u003Cunknown&gt;\n#16 0x55e45d0ee586 \u003Cunknown&gt;\n#17 0x7f7c4e667aa4 \u003Cunknown&gt;\n#18 0x7f7c4e6f4a34 __clone\n&quot;}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}
-classpath:web/ajax_page/ajax.feature:4
+  <div class="preformatted" data-parent="0.4">09:23:37.547 browser = firefox 
+09:23:37.548 engine = selenium 
+09:23:37.548 headless = true 
 </div>   
 
   
@@ -134,20 +129,20 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.9">
-      <div class="step-ref skipped">9</div>
+      <div class="step-ref passed">9</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">71</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.9"><img src="web.ajax_page.ajax_1_1754731420152.png"/></div>
 
      
 
@@ -162,13 +157,13 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.10">
-      <div class="step-ref skipped">10</div>
+      <div class="step-ref passed">10</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>click(&#39;#button&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">42</div>
   </div>
 
    
@@ -190,13 +185,13 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.11">
-      <div class="step-ref skipped">11</div>
+      <div class="step-ref passed">11</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match enabled(&#39;#button&#39;) == false</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">31</div>
   </div>
 
    
@@ -218,20 +213,20 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref skipped">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">90</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.12"><img src="web.ajax_page.ajax_1_1754731420326.png"/></div>
 
      
 
@@ -246,13 +241,13 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>waitFor(&#39;#title&#39;)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">6033</div>
   </div>
 
    
@@ -261,7 +256,9 @@ classpath:web/ajax_page/ajax.feature:4
 
   
 
-     
+  <div class="preformatted" data-parent="0.13">09:23:40.344 waitUntil (js) - retry #1
+09:23:43.353 waitUntil (js) - retry #2
+</div>   
 
   
 
@@ -281,13 +278,13 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.15">
-      <div class="step-ref skipped">15</div>
+      <div class="step-ref passed">15</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match text(&#39;#title&#39;) == &quot;AJAX&quot;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -309,13 +306,13 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.16">
-      <div class="step-ref skipped">16</div>
+      <div class="step-ref passed">16</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>match enabled(&#39;#button&#39;) == true</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -337,20 +334,20 @@ classpath:web/ajax_page/ajax.feature:4
 
   <div class="step-row">
     <div class="step-container" id="0.17">
-      <div class="step-ref skipped">17</div>
+      <div class="step-ref passed">17</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>screenshot()</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">69</div>
   </div>
 
    
   
   
 
-  
+  <div class="embed" data-parent="0.17"><img src="web.ajax_page.ajax_1_1754731426447.png"/></div>
 
      
 

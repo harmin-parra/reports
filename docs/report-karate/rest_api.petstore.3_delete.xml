@@ -1,10 +1,10 @@
-<testsuite failures="1" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.128931"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.128931"><failure message="status code was: 404, expected: 200, response time in milliseconds: 126, url: https://petstore.swagger.io/v2/pet/5432, response: &#10;&#10;classpath:rest_api/petstore/3_delete.feature:11">* url url_rest_api ........................................................ passed
+<testsuite failures="1" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.105759"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.105759"><failure message="status code was: 404, expected: 200, response time in milliseconds: 99, url: https://petstore.swagger.io/v2/pet/5432, response: &#10;&#10;classpath:rest_api/petstore/3_delete.feature:11">* url url_rest_api ........................................................ passed
 Given path '5432' ......................................................... passed
 When method delete ........................................................ passed
 Then status 200 ........................................................... failed
 
 Stack Trace:
-com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 126, url: https://petstore.swagger.io/v2/pet/5432, response: 
+com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 99, url: https://petstore.swagger.io/v2/pet/5432, response: 
 
 classpath:rest_api/petstore/3_delete.feature:11
 	at &lt;feature&gt;.: Then status 200 (classpath:rest_api/petstore/3_delete.feature:11:11)
