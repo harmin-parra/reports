@@ -1,6 +1,6 @@
-1754704193486	geckodriver	INFO	Listening on 127.0.0.1:33625
-1754704193502	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "37359" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileN2kO4A"
-[4266] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1754726372777	geckodriver	INFO	Listening on 127.0.0.1:47981
+1754726372792	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "42227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTfdQmF"
+[4236] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,16 +8,16 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1754704193721	Marionette	INFO	Marionette enabled
-1754704193802	Marionette	INFO	Listening on port 45189
-WebDriver BiDi listening on ws://127.0.0.1:37359
-Read port: 45189
-1754704193951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1754726372992	Marionette	INFO	Marionette enabled
+1754726373073	Marionette	INFO	Listening on port 35755
+WebDriver BiDi listening on ws://127.0.0.1:42227
+Read port: 35755
+1754726373158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: CustomizableUI: 
   Could not localize property 'fxms-bmb-button.tooltiptext'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
-1754704196425	Marionette	INFO	Stopped listening on port 45189
+1754726375584	Marionette	INFO	Stopped listening on port 35755
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
