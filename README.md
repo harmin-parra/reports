@@ -15,7 +15,7 @@ The web pages under test:
 - http://qa-demo.gitlab.io/reports/web/ajax.html
 
 The REST api under test:
-- https://petstore.swagger.io/
+- https://restful-api.dev
 
 
 ## Automation test tools
