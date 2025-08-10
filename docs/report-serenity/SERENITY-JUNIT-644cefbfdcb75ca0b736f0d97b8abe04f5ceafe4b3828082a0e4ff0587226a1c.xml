@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="demo.tests.WebFormTest" skipped="0" tests="1" time="3.3" timestamp="2025-08-10 08:55:44"><testcase classname="demo.tests.WebFormTest" name="Fill in form"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="demo.tests.WebFormTest" skipped="0" tests="1" time="3.5" timestamp="2025-08-10 10:33:13"><testcase classname="demo.tests.WebFormTest" name="Fill in form"/></testsuite>
