@@ -1,6 +1,6 @@
-1754831938419	geckodriver	INFO	Listening on 127.0.0.1:41055
-1754831938434	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "44055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNbE9Gc"
-[3681] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1756020198443	geckodriver	INFO	Listening on 127.0.0.1:51319
+1756020198458	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "38691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewsWYlL"
+[3701] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,13 +8,15 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1754831938640	Marionette	INFO	Marionette enabled
-1754831938718	Marionette	INFO	Listening on port 39935
-WebDriver BiDi listening on ws://127.0.0.1:44055
-Read port: 39935
-1754831938801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756020198658	Marionette	INFO	Marionette enabled
+1756020198737	Marionette	INFO	Listening on port 39359
+WebDriver BiDi listening on ws://127.0.0.1:38691
+Read port: 39359
+1756020198827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: CustomizableUI: 
   Could not localize property 'fxms-bmb-button.tooltiptext'.
+console.warn: RSLoader: Recipe new-tab-train-hop-pilot-to-release-start-and-wait-for-escape-hatch-signal not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe train-hop-pilot-to-beta-start-and-wait-for-major-version-bump not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.error: [Exception... "Favicon at "http://qa-demo.gitlab.io/favicon.ico" failed to load."  nsresult: "0x8053040c (<unknown>)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 225"  data: no]
 JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
