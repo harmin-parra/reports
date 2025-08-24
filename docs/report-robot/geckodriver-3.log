@@ -1,5 +1,5 @@
-1756020206688	geckodriver	INFO	Listening on 127.0.0.1:36709
-1756020206703	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "38657" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDWLdgV"
+1756023033430	geckodriver	INFO	Listening on 127.0.0.1:40351
+1756023033445	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "60057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3dECGZ"
 [3967] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -8,11 +8,11 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1756020206908	Marionette	INFO	Marionette enabled
-1756020206988	Marionette	INFO	Listening on port 43367
-WebDriver BiDi listening on ws://127.0.0.1:38657
-Read port: 43367
-1756020207066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756023033646	Marionette	INFO	Marionette enabled
+1756023033722	Marionette	INFO	Listening on port 44189
+WebDriver BiDi listening on ws://127.0.0.1:60057
+Read port: 44189
+1756023033828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: CustomizableUI: 
   Could not localize property 'fxms-bmb-button.tooltiptext'.
@@ -20,6 +20,6 @@ console.warn: RSLoader: Recipe new-tab-train-hop-pilot-to-release-start-and-wait
 console.warn: RSLoader: Recipe train-hop-pilot-to-beta-start-and-wait-for-major-version-bump not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
-1756020209491	Marionette	INFO	Stopped listening on port 43367
+1756023036246	Marionette	INFO	Stopped listening on port 44189
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
