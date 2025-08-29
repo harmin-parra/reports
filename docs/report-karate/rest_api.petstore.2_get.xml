@@ -1,16 +1,9 @@
-<testsuite failures="1" name="rest_api/petstore/2_get.feature" skipped="0" tests="1" time="0.027371"><testcase classname="rest_api.petstore.2_get" name="Get pet" time="0.027371"><failure message="status code was: 404, expected: 200, response time in milliseconds: 20, url: https://petstore.swagger.io/v2/pet/5432, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;classpath:rest_api/petstore/2_get.feature:11">* url url_rest_api ........................................................ passed
+<testsuite failures="0" name="rest_api/petstore/2_get.feature" skipped="0" tests="1" time="0.138075"><testcase classname="rest_api.petstore.2_get" name="Get pet" time="0.138075"><system-out>* url url_rest_api ........................................................ passed
 Given path '5432' ......................................................... passed
 When method get ........................................................... passed
-Then status 200 ........................................................... failed
-
-Stack Trace:
-com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 20, url: https://petstore.swagger.io/v2/pet/5432, response: 
-{"code":1,"type":"error","message":"Pet not found"}
-classpath:rest_api/petstore/2_get.feature:11
-	at &lt;feature&gt;.: Then status 200 (classpath:rest_api/petstore/2_get.feature:11:11)
-
-And match response contains {id: 5432} .................................... skipped
-And match response contains {name: "doggie"} .............................. skipped
-And match response contains {status: "available"} ......................... skipped
-</failure></testcase>
+Then status 200 ........................................................... passed
+And match response contains {id: 5432} .................................... passed
+And match response contains {name: "doggie"} .............................. passed
+And match response contains {status: "available"} ......................... passed
+</system-out></testcase>
 </testsuite>
