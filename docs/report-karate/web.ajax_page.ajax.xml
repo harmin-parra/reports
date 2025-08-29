@@ -1,4 +1,4 @@
-<testsuite failures="0" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="11.311344"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="11.311344"><system-out>* driver url_ajax_page .................................................... passed
+<testsuite failures="0" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="11.290573"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="11.290573"><system-out>* driver url_ajax_page .................................................... passed
 * screenshot() ............................................................ passed
 * click('#button') ........................................................ passed
 * match enabled('#button') == false ....................................... passed

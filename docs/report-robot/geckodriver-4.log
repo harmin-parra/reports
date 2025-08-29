@@ -1,6 +1,6 @@
-1756461777414	geckodriver	INFO	Listening on 127.0.0.1:41785
-1756461777429	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "47991" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA8zLih"
-[4255] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1756504561260	geckodriver	INFO	Listening on 127.0.0.1:56125
+1756504561276	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "58105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9SvjsP"
+[4241] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,17 +8,17 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1756461777626	Marionette	INFO	Marionette enabled
-1756461777710	Marionette	INFO	Listening on port 34661
-WebDriver BiDi listening on ws://127.0.0.1:47991
-Read port: 34661
-1756461777799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1756504561473	Marionette	INFO	Marionette enabled
+1756504561552	Marionette	INFO	Listening on port 35243
+WebDriver BiDi listening on ws://127.0.0.1:58105
+Read port: 35243
+1756504561654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: CustomizableUI: 
   Could not localize property 'fxms-bmb-button.tooltiptext'.
 console.warn: RSLoader: Recipe new-tab-train-hop-pilot-to-release-start-and-wait-for-escape-hatch-signal not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
-1756461780284	Marionette	INFO	Stopped listening on port 34661
+1756504564118	Marionette	INFO	Stopped listening on port 35243
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
