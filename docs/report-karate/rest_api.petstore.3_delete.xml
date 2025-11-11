@@ -1,12 +1,19 @@
-<testsuite failures="0" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.066837"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.066837"><system-out>* url url_rest_api ........................................................ passed
+<testsuite failures="1" name="rest_api/petstore/3_delete.feature" skipped="0" tests="1" time="0.376105"><testcase classname="rest_api.petstore.3_delete" name="Delete pet" time="0.376105"><failure message="status code was: 200, expected: 404, response time in milliseconds: 186, url: https://petstore.swagger.io/v2/pet/5432, response: &#10;{&quot;id&quot;:5432,&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;available&quot;}&#10;classpath:rest_api/petstore/3_delete.feature:16">* url url_rest_api ........................................................ passed
 Given path '5432' ......................................................... passed
 When method delete ........................................................ passed
 Then status 200 ........................................................... passed
 And match response contains {message: '5432'} ............................. passed
 Given path '5432' ......................................................... passed
 When method get ........................................................... passed
-Then status 404 ........................................................... passed
-And match response contains {type: 'error'} ............................... passed
-And match response contains {message: 'Pet not found'} .................... passed
-</system-out></testcase>
+Then status 404 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: status code was: 200, expected: 404, response time in milliseconds: 186, url: https://petstore.swagger.io/v2/pet/5432, response: 
+{"id":5432,"name":"doggie","photoUrls":[],"tags":[],"status":"available"}
+classpath:rest_api/petstore/3_delete.feature:16
+	at &lt;feature&gt;.: Then status 404 (classpath:rest_api/petstore/3_delete.feature:16:16)
+
+And match response contains {type: 'error'} ............................... skipped
+And match response contains {message: 'Pet not found'} .................... skipped
+</failure></testcase>
 </testsuite>
