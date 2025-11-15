@@ -1,6 +1,6 @@
-1763234490506	geckodriver	INFO	Listening on 127.0.0.1:37507
-1763234490521	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "43565" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFELfMc"
-[2108] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1763239768252	geckodriver	INFO	Listening on 127.0.0.1:50561
+1763239768268	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "45015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUGK0qw"
+[7379] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,17 +8,17 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1763234490723	Marionette	INFO	Marionette enabled
-1763234490802	Marionette	INFO	Listening on port 46105
-WebDriver BiDi listening on ws://127.0.0.1:43565
-Read port: 46105
-1763234490892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1763239768480	Marionette	INFO	Marionette enabled
+1763239768567	Marionette	INFO	Listening on port 45743
+WebDriver BiDi listening on ws://127.0.0.1:45015
+Read port: 45743
+1763239768744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: RSLoader: Recipe new-tab-145020250919173227-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-145020250919173227-to-release-143 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-145120251009134757-to-release not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.selenium.dev."
-1763234493350	Marionette	INFO	Stopped listening on port 46105
+1763239771203	Marionette	INFO	Stopped listening on port 45743
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
