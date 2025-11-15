@@ -1,6 +1,6 @@
-1763220340310	geckodriver	INFO	Listening on 127.0.0.1:39019
-1763220340325	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "36423" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6u2V79"
-[6832] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1763221645245	geckodriver	INFO	Listening on 127.0.0.1:38215
+1763221645261	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "39647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLVgwLX"
+[6828] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,14 +8,87 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1763220340523	Marionette	INFO	Marionette enabled
-1763220340600	Marionette	INFO	Listening on port 41847
-WebDriver BiDi listening on ws://127.0.0.1:36423
-Read port: 41847
-1763220340702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1763221645478	Marionette	INFO	Marionette enabled
+1763221645571	Marionette	INFO	Listening on port 39647
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+Read port: 39647
+1763221645718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
 console.warn: RSLoader: Recipe new-tab-145020250919173227-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-145020250919173227-to-release-143 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-145120251009134757-to-release not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
 console.error: [Exception... "Favicon at "http://qa-demo.gitlab.io/favicon.ico" failed to load."  nsresult: "0x8053040c (<unknown>)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 225"  data: no]
-JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+
+!!! could not start server on port 39647: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.init]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: _start :: line 558"  data: no]
+
+1763221650820	RemoteAgent	WARN	PollPromise timed out after 5000 ms
+1763221650820	RemoteAgent	ERROR	Unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: stop :: line 612"  data: no] Stack trace: stop()@httpd.sys.mjs:612
+#stop()@RemoteAgent.sys.mjs:418
+1763221650820	RemoteAgent	ERROR	Unable to start the RemoteAgent: Failed to start HTTP server on port 39647, closing: Error: Failed to start HTTP server on port 39647(chrome://remote/content/components/RemoteAgent.sys.mjs:327:15) JS Stack trace: #listen@RemoteAgent.sys.mjs:327:15
+1763221651173	Marionette	INFO	Stopped listening on port 39647
+1763221651194	RemoteAgent	ERROR	Unable to stop listener: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/server/httpd.sys.mjs :: stop :: line 612"  data: no] Stack trace: stop()@httpd.sys.mjs:612
+#stop()@RemoteAgent.sys.mjs:418
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:569
+#listen()@RemoteAgent.sys.mjs:349
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1763221651421	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
