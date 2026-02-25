@@ -1,2 +1,27 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.22172199999999997">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.730368000000002">
+<testsuite name="ajax.spec.ts" timestamp="2026-02-25T22:35:25.051Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.169" errors="0">
+<testcase name="Ajax verification with intercept" classname="ajax.spec.ts" time="7.596">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-intercept-firefox/video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Ajax verification with expect" classname="ajax.spec.ts" time="7.573">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-expect-firefox/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="webform.spec.ts" timestamp="2026-02-25T22:35:25.051Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.315" errors="0">
+<testcase name="Web form" classname="webform.spec.ts" time="5.315">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../playwright-results/webform-Web-form-firefox/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
 </testsuites>
