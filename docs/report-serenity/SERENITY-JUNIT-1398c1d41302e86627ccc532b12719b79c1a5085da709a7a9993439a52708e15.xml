@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="demo.tests.CatalogTest" skipped="0" tests="1" time="1.98" timestamp="2026-01-01 04:31:04"><testcase classname="demo.tests.CatalogTest" name="Delete object"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="demo.tests.CatalogTest" skipped="0" tests="1" time="1.42" timestamp="2026-02-25 10:05:02"><testcase classname="demo.tests.CatalogTest" name="Delete object"><failure message="1 expectation failed.&#10;JSON path error doesn't match.&#10;Expected: Oject with id=ff8081819c5368bb019c96d580476fcf was not found.&#10;  Actual: Object with id=ff8081819c5368bb019c96d580476fcf was not found.&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path error doesn't match.
+Expected: Oject with id=ff8081819c5368bb019c96d580476fcf was not found.
+  Actual: Object with id=ff8081819c5368bb019c96d580476fcf was not found.
+</failure><system-err>1 expectation failed.
+JSON path error doesn't match.
+Expected: Oject with id=ff8081819c5368bb019c96d580476fcf was not found.
+  Actual: Object with id=ff8081819c5368bb019c96d580476fcf was not found.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+demo.actions.CatalogActions.thenObjectIsDeleted(CatalogActions.java:91)
+demo.tests.CatalogTest.deleteObject(CatalogTest.java:42)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>
