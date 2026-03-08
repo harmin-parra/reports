@@ -1,25 +1,25 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.053742">
-<testsuite name="ajax.spec.ts" timestamp="2026-03-08T20:32:34.127Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.058" errors="0">
-<testcase name="Ajax verification with intercept" classname="ajax.spec.ts" time="7.528">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="20.827560000000002">
+<testsuite name="ajax.spec.ts" timestamp="2026-03-08T20:41:13.261Z" hostname="chrome" tests="2" failures="0" skipped="0" time="14.459" errors="0">
+<testcase name="Ajax verification with intercept" classname="ajax.spec.ts" time="6.907">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-intercept-firefox/video.webm]]
+[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-intercept-chrome/video.webm]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Ajax verification with expect" classname="ajax.spec.ts" time="7.53">
+<testcase name="Ajax verification with expect" classname="ajax.spec.ts" time="7.552">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-expect-firefox/video.webm]]
+[[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-expect-chrome/video.webm]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="webform.spec.ts" timestamp="2026-03-08T20:32:34.127Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.202" errors="0">
-<testcase name="Web form" classname="webform.spec.ts" time="5.202">
+<testsuite name="webform.spec.ts" timestamp="2026-03-08T20:41:13.261Z" hostname="chrome" tests="1" failures="0" skipped="0" time="5.252" errors="0">
+<testcase name="Web form" classname="webform.spec.ts" time="5.252">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|../playwright-results/webform-Web-form-firefox/video.webm]]
+[[ATTACHMENT|../playwright-results/webform-Web-form-chrome/video.webm]]
 ]]>
 </system-out>
 </testcase>
