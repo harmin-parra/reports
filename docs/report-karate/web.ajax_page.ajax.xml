@@ -1,11 +1,578 @@
-<testsuite failures="0" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="8.5048"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="8.5048"><system-out>* driver url_ajax_page .................................................... passed
-* screenshot() ............................................................ passed
-* click('#button') ........................................................ passed
-* match enabled('#button') == false ....................................... passed
-* screenshot() ............................................................ passed
-* waitFor('#title') ....................................................... passed
-* match text('#title') == "AJAX" .......................................... passed
-* match enabled('#button') == true ........................................ passed
-* screenshot() ............................................................ passed
-</system-out></testcase>
+<testsuite failures="1" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="0"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="0"><failure message="&gt;&gt; classpath:web/ajax_page/ajax.feature:8&#10;&gt;&gt; karate-config.js failed&#10;&gt;&gt; Error: Unsopported browser for Selenium: chromium&#10;js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: function fn() {&#10;02: &#10;03:   var headless = 'true';&#10;04:   var browser = 'firefox';&#10;05:   var engine = 'selenium';&#10;06: &#10;07:   var config = {&#10;08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',&#10;09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',&#10;10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',&#10;11:   };&#10;12: &#10;13:   headless = karate.properties['headless'] || headless;&#10;14:   headless = (headless == 'true') ? true : false;&#10;15:   browser = karate.properties['browser']|| browser;&#10;16:   engine = karate.properties['engine'] || engine;&#10;17: &#10;18:   if (engine == 'playwright') {&#10;19:     if (browser != &quot;chromium&quot;)&#10;20:       throw new Error(&quot;Unsopported browser for Playwright: &quot; + browser);&#10;21:     else&#10;22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });&#10;23:   } else {  // engine == 'selenium'&#10;24:     if (browser != &quot;firefox&quot; &amp;&amp; browser != &quot;chrome&quot;)&#10;25:       throw new Error(&quot;Unsopported browser for Selenium: &quot; + browser);&#10;26:     if (headless) {&#10;27:       if (browser == &quot;firefox&quot;)&#10;28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', &quot;moz:firefoxOptions&quot;: { args: ['--headless'] } } } } });&#10;29:       else&#10;30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', &quot;goog:chromeOptions&quot;: { args: ['headless'] } } } } });&#10;31:         // karate.configure('driver', { type: 'playwright', headless: true });&#10;32:     } else {&#10;33:       if (browser == &quot;firefox&quot;)&#10;34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });&#10;35:       else&#10;36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });&#10;37:     }&#10;38:   }&#10;39: &#10;40:   karate.log('browser =', browser);&#10;41:   karate.log('engine =', engine);&#10;42:   karate.log('headless =', headless);&#10;43: &#10;44:   return config;&#10;45: }&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium&#10;- &lt;js&gt;.fn(Unnamed:25)&#10;&#10;classpath:web/ajax_page/ajax.feature:4&#10;classpath:web/ajax_page/ajax.feature:9&#10;classpath:web/ajax_page/ajax.feature:10&#10;classpath:web/ajax_page/ajax.feature:11&#10;classpath:web/ajax_page/ajax.feature:12&#10;classpath:web/ajax_page/ajax.feature:13&#10;classpath:web/ajax_page/ajax.feature:15&#10;classpath:web/ajax_page/ajax.feature:16&#10;classpath:web/ajax_page/ajax.feature:17">* driver url_ajax_page .................................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+	at &lt;feature&gt;.: * driver url_ajax_page (classpath:web/ajax_page/ajax.feature:4:4)
+
+* screenshot() ............................................................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+	at &lt;feature&gt;.: * screenshot() (classpath:web/ajax_page/ajax.feature:9:9)
+
+* click('#button') ........................................................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+	at &lt;feature&gt;.: * click('#button') (classpath:web/ajax_page/ajax.feature:10:10)
+
+* match enabled('#button') == false ....................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+	at &lt;feature&gt;.: * match enabled('#button') == false (classpath:web/ajax_page/ajax.feature:11:11)
+
+* screenshot() ............................................................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+classpath:web/ajax_page/ajax.feature:12
+	at &lt;feature&gt;.: * screenshot() (classpath:web/ajax_page/ajax.feature:12:12)
+
+* waitFor('#title') ....................................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+classpath:web/ajax_page/ajax.feature:12
+classpath:web/ajax_page/ajax.feature:13
+	at &lt;feature&gt;.: * waitFor('#title') (classpath:web/ajax_page/ajax.feature:13:13)
+
+* match text('#title') == "AJAX" .......................................... failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+classpath:web/ajax_page/ajax.feature:12
+classpath:web/ajax_page/ajax.feature:13
+classpath:web/ajax_page/ajax.feature:15
+	at &lt;feature&gt;.: * match text('#title') == "AJAX" (classpath:web/ajax_page/ajax.feature:15:15)
+
+* match enabled('#button') == true ........................................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+classpath:web/ajax_page/ajax.feature:12
+classpath:web/ajax_page/ajax.feature:13
+classpath:web/ajax_page/ajax.feature:15
+classpath:web/ajax_page/ajax.feature:16
+	at &lt;feature&gt;.: * match enabled('#button') == true (classpath:web/ajax_page/ajax.feature:16:16)
+
+* screenshot() ............................................................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: &gt;&gt; classpath:web/ajax_page/ajax.feature:8
+&gt;&gt; karate-config.js failed
+&gt;&gt; Error: Unsopported browser for Selenium: chromium
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02: 
+03:   var headless = 'true';
+04:   var browser = 'firefox';
+05:   var engine = 'selenium';
+06: 
+07:   var config = {
+08:     url_form_page: 'https://www.selenium.dev/selenium/web/web-form.html',
+09:     url_ajax_page: 'http://qa-demo.gitlab.io/reports/web/ajax.html',
+10:     url_rest_api: 'https://petstore.swagger.io/v2/pet',
+11:   };
+12: 
+13:   headless = karate.properties['headless'] || headless;
+14:   headless = (headless == 'true') ? true : false;
+15:   browser = karate.properties['browser']|| browser;
+16:   engine = karate.properties['engine'] || engine;
+17: 
+18:   if (engine == 'playwright') {
+19:     if (browser != "chromium")
+20:       throw new Error("Unsopported browser for Playwright: " + browser);
+21:     else
+22:       karate.configure('driver', { type: 'playwright', headless: headless, playwrightOptions: { browserType: browser } });
+23:   } else {  // engine == 'selenium'
+24:     if (browser != "firefox" &amp;&amp; browser != "chrome")
+25:       throw new Error("Unsopported browser for Selenium: " + browser);
+26:     if (headless) {
+27:       if (browser == "firefox")
+28:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'firefox', "moz:firefoxOptions": { args: ['--headless'] } } } } });
+29:       else
+30:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver', webDriverSession: { capabilities: { alwaysMatch: {browserName: 'chrome', "goog:chromeOptions": { args: ['headless'] } } } } });
+31:         // karate.configure('driver', { type: 'playwright', headless: true });
+32:     } else {
+33:       if (browser == "firefox")
+34:         karate.configure('driver', { type: 'geckodriver', executable: '/opt/webdriver/geckodriver' });
+35:       else
+36:         karate.configure('driver', { type: 'chromedriver', executable: '/opt/webdriver/chromedriver' });
+37:     }
+38:   }
+39: 
+40:   karate.log('browser =', browser);
+41:   karate.log('engine =', engine);
+42:   karate.log('headless =', headless);
+43: 
+44:   return config;
+45: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Error: Unsopported browser for Selenium: chromium
+- &lt;js&gt;.fn(Unnamed:25)
+
+classpath:web/ajax_page/ajax.feature:4
+classpath:web/ajax_page/ajax.feature:9
+classpath:web/ajax_page/ajax.feature:10
+classpath:web/ajax_page/ajax.feature:11
+classpath:web/ajax_page/ajax.feature:12
+classpath:web/ajax_page/ajax.feature:13
+classpath:web/ajax_page/ajax.feature:15
+classpath:web/ajax_page/ajax.feature:16
+classpath:web/ajax_page/ajax.feature:17
+	at &lt;feature&gt;.: * screenshot() (classpath:web/ajax_page/ajax.feature:17:17)
+
+</failure></testcase>
 </testsuite>
