@@ -1,6 +1,6 @@
-1772999383533	geckodriver	INFO	Listening on 127.0.0.1:37193
-1772999383549	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "41693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNkq18S"
-[3675] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
+1773000098057	geckodriver	INFO	Listening on 127.0.0.1:40479
+1773000098074	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "40855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeSyUfp"
+[3662] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
@@ -8,11 +8,11 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1772999383759	Marionette	INFO	Marionette enabled
-1772999383839	Marionette	INFO	Listening on port 34283
-WebDriver BiDi listening on ws://127.0.0.1:41693
-Read port: 34283
-1772999383896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1773000098304	Marionette	INFO	Marionette enabled
+1773000098387	Marionette	INFO	Listening on port 37515
+WebDriver BiDi listening on ws://127.0.0.1:40855
+Read port: 37515
+1773000098539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
