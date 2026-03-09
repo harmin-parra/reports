@@ -1,17 +1,11 @@
-<testsuite failures="1" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="0.341855"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="0.341855"><failure message="driver config / start failed: webdriver session create status 500, {&quot;value&quot;:{&quot;error&quot;:&quot;session not created&quot;,&quot;message&quot;:&quot;session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.&quot;,&quot;stacktrace&quot;:&quot;#0 0x55cd76e8baca \u003Cunknown&gt;\n#1 0x55cd768d7cdb \u003Cunknown&gt;\n#2 0x55cd769127b9 \u003Cunknown&gt;\n#3 0x55cd7690e215 \u003Cunknown&gt;\n#4 0x55cd7695eeb6 \u003Cunknown&gt;\n#5 0x55cd7695e5d6 \u003Cunknown&gt;\n#6 0x55cd7691caca \u003Cunknown&gt;\n#7 0x55cd7691d7d1 \u003Cunknown&gt;\n#8 0x55cd76e52a99 \u003Cunknown&gt;\n#9 0x55cd76e55a6c \u003Cunknown&gt;\n#10 0x55cd76e3bd29 \u003Cunknown&gt;\n#11 0x55cd76e56665 \u003Cunknown&gt;\n#12 0x55cd76e236a3 \u003Cunknown&gt;\n#13 0x55cd76e787b8 \u003Cunknown&gt;\n#14 0x55cd76e78993 \u003Cunknown&gt;\n#15 0x55cd76e8aa63 \u003Cunknown&gt;\n#16 0x7fa72c0e9b7b \u003Cunknown&gt;\n&quot;}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}&#10;classpath:web/ajax_page/ajax.feature:4">* driver url_ajax_page .................................................... failed
-
-Stack Trace:
-com.intuit.karate.KarateException: driver config / start failed: webdriver session create status 500, {"value":{"error":"session not created","message":"session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.","stacktrace":"#0 0x55cd76e8baca \u003Cunknown&gt;\n#1 0x55cd768d7cdb \u003Cunknown&gt;\n#2 0x55cd769127b9 \u003Cunknown&gt;\n#3 0x55cd7690e215 \u003Cunknown&gt;\n#4 0x55cd7695eeb6 \u003Cunknown&gt;\n#5 0x55cd7695e5d6 \u003Cunknown&gt;\n#6 0x55cd7691caca \u003Cunknown&gt;\n#7 0x55cd7691d7d1 \u003Cunknown&gt;\n#8 0x55cd76e52a99 \u003Cunknown&gt;\n#9 0x55cd76e55a6c \u003Cunknown&gt;\n#10 0x55cd76e3bd29 \u003Cunknown&gt;\n#11 0x55cd76e56665 \u003Cunknown&gt;\n#12 0x55cd76e236a3 \u003Cunknown&gt;\n#13 0x55cd76e787b8 \u003Cunknown&gt;\n#14 0x55cd76e78993 \u003Cunknown&gt;\n#15 0x55cd76e8aa63 \u003Cunknown&gt;\n#16 0x7fa72c0e9b7b \u003Cunknown&gt;\n"}}, options: {type=chromedriver, executable=/opt/webdriver/chromedriver, webDriverSession={capabilities={alwaysMatch={browserName=chrome, goog:chromeOptions={args=[headless]}}}}, target=null}
-classpath:web/ajax_page/ajax.feature:4
-	at &lt;feature&gt;.: * driver url_ajax_page (classpath:web/ajax_page/ajax.feature:4:4)
-
-* screenshot() ............................................................ skipped
-* click('#button') ........................................................ skipped
-* match enabled('#button') == false ....................................... skipped
-* screenshot() ............................................................ skipped
-* waitFor('#title') ....................................................... skipped
-* match text('#title') == "AJAX" .......................................... skipped
-* match enabled('#button') == true ........................................ skipped
-* screenshot() ............................................................ skipped
-</failure></testcase>
+<testsuite failures="0" name="web/ajax_page/ajax.feature" skipped="0" tests="1" time="8.389655"><testcase classname="web.ajax_page.ajax" name="web.ajax_page.ajax_1" time="8.389655"><system-out>* driver url_ajax_page .................................................... passed
+* screenshot() ............................................................ passed
+* click('#button') ........................................................ passed
+* match enabled('#button') == false ....................................... passed
+* screenshot() ............................................................ passed
+* waitFor('#title') ....................................................... passed
+* match text('#title') == "AJAX" .......................................... passed
+* match enabled('#button') == true ........................................ passed
+* screenshot() ............................................................ passed
+</system-out></testcase>
 </testsuite>

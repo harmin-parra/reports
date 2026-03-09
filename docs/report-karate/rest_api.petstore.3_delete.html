@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"a8ded9e8-7724-4136-9ff4-f1cae333184d",karate_version:"1.5.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"4fcf004a-09e4-4cab-bf6c-21df78cc38ea",karate_version:"1.5.1",karate_meta:null});
   }
 });
 </script>
@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2026-03-08 08:45:11 PM</div>
+    <div>2026-03-09 08:35:59 PM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>430</span>
+              <span>ms:</span>&nbsp;<span>252</span>
             </div>
           </div>
           <div class="step-row">
@@ -113,9 +113,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">20:45:11.330 browser = chrome 
-20:45:11.330 engine = selenium 
-20:45:11.330 headless = true 
+  <div class="preformatted" data-parent="0.4">20:35:59.536 browser = firefox 
+20:35:59.536 engine = selenium 
+20:35:59.536 headless = true 
 </div>   
 
   
@@ -163,7 +163,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell passed">208</div>
+    <div class="time-cell passed">114</div>
   </div>
 
    
@@ -172,17 +172,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">20:45:11.332 request:
+  <div class="preformatted" data-parent="0.10">20:35:59.539 request:
 1 &gt; DELETE https://petstore.swagger.io/v2/pet/5432
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-20:45:11.538 response time in milliseconds: 206
+20:35:59.651 response time in milliseconds: 111
 1 &lt; 200
-1 &lt; Date: Sun, 08 Mar 2026 20:45:11 GMT
+1 &lt; Date: Mon, 09 Mar 2026 20:35:59 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -239,7 +239,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response contains {message: &#39;5432&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -295,7 +295,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">220</div>
+    <div class="time-cell passed">136</div>
   </div>
 
    
@@ -304,17 +304,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.15">20:45:11.541 request:
+  <div class="preformatted" data-parent="0.15">20:35:59.655 request:
 2 &gt; GET https://petstore.swagger.io/v2/pet/5432
 2 &gt; Host: petstore.swagger.io
 2 &gt; Connection: Keep-Alive
-2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.1)
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.2)
 2 &gt; Accept-Encoding: gzip,deflate
 
 
-20:45:11.760 response time in milliseconds: 219
+20:35:59.788 response time in milliseconds: 132
 2 &lt; 404
-2 &lt; Date: Sun, 08 Mar 2026 20:45:11 GMT
+2 &lt; Date: Mon, 09 Mar 2026 20:35:59 GMT
 2 &lt; Content-Type: application/json
 2 &lt; Transfer-Encoding: chunked
 2 &lt; Connection: keep-alive
@@ -371,7 +371,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response contains {type: &#39;error&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
