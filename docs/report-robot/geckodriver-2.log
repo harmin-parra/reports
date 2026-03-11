@@ -1,5 +1,5 @@
-1773261185954	geckodriver	INFO	Listening on 127.0.0.1:53425
-1773261185971	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "50949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOuuT84"
+1773262094865	geckodriver	INFO	Listening on 127.0.0.1:54935
+1773262094882	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/local/bin/firefox ... ss" "--remote-debugging-port" "40135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea390Sf"
 [6828] Sandbox: CanCreateUserNamespace() clone() failure: EPERM
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
@@ -8,11 +8,11 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 [GFX1-]: glxtest: Unable to open a connection to the X server
 [GFX1-]: No GPUs detected via PCI
 
-1773261186190	Marionette	INFO	Marionette enabled
-1773261186270	Marionette	INFO	Listening on port 33521
-WebDriver BiDi listening on ws://127.0.0.1:50949
-Read port: 33521
-1773261186419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1773262095090	Marionette	INFO	Marionette enabled
+1773262095167	Marionette	INFO	Listening on port 39549
+WebDriver BiDi listening on ws://127.0.0.1:40135
+Read port: 39549
+1773262095249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
 console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
