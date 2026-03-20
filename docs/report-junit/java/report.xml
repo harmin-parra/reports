@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites tests="3" failures="0" errors="0" skipped="0" time="21.077"><testsuite name="web_playwright.WebFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-20T16:41:23.283Z" hostname="61d38a93a046" time="5.949">
+  <properties />
+  <testcase name="web_form()" classname="web_playwright.WebFormTest" time="5.949" />
+  <system-out />
+  <system-err />
+</testsuite><testsuite name="web_playwright.AjaxTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-20T16:41:06.991Z" hostname="61d38a93a046" time="15.128">
+  <properties />
+  <testcase name="ajax_verification_with_intercept()" classname="web_playwright.AjaxTest" time="7.507" />
+  <testcase name="ajax_verification_with_assert()" classname="web_playwright.AjaxTest" time="7.567" />
+  <system-out />
+  <system-err />
+</testsuite></testsuites>
