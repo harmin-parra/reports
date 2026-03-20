@@ -1,13 +1,13 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.331915000000002">
-<testsuite name="ajax.spec.ts" timestamp="2026-03-20T15:56:08.573Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.359" errors="0">
-<testcase name="Ajax verification with intercept" classname="ajax.spec.ts" time="7.859">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="22.14608">
+<testsuite name="ajax.spec.ts" timestamp="2026-03-20T16:07:24.160Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.094" errors="0">
+<testcase name="Ajax verification with intercept" classname="ajax.spec.ts" time="7.622">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-intercept-firefox/video.webm]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Ajax verification with expect" classname="ajax.spec.ts" time="7.5">
+<testcase name="Ajax verification with expect" classname="ajax.spec.ts" time="7.472">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../playwright-results/ajax-Ajax-verification-with-expect-firefox/video.webm]]
@@ -15,8 +15,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="webform.spec.ts" timestamp="2026-03-20T15:56:08.573Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.21" errors="0">
-<testcase name="Web form" classname="webform.spec.ts" time="5.21">
+<testsuite name="webform.spec.ts" timestamp="2026-03-20T16:07:24.160Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.204" errors="0">
+<testcase name="Web form" classname="webform.spec.ts" time="5.204">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../playwright-results/webform-Web-form-firefox/video.webm]]
