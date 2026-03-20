@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="web_playwright.WebFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-20T15:08:29.884Z" hostname="964f5f3ccb0f" time="5.901">
+<testsuite name="web_playwright.WebFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-20T15:58:41.077Z" hostname="728541343aff" time="5.987">
   <properties/>
-  <testcase name="web_form()" classname="web_playwright.WebFormTest" time="5.901"/>
+  <testcase name="web_form()" classname="web_playwright.WebFormTest" time="5.987"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
