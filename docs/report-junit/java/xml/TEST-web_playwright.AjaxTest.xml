@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="web_playwright.AjaxTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-20T16:41:06.991Z" hostname="61d38a93a046" time="15.128">
+<testsuite name="web_playwright.AjaxTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-21T10:39:14.934Z" hostname="71ebaca8463f" time="14.752">
   <properties/>
-  <testcase name="ajax_verification_with_intercept()" classname="web_playwright.AjaxTest" time="7.507"/>
-  <testcase name="ajax_verification_with_assert()" classname="web_playwright.AjaxTest" time="7.567"/>
+  <testcase name="ajax_verification_with_intercept()" classname="web_playwright.AjaxTest" time="7.248"/>
+  <testcase name="ajax_verification_with_assert()" classname="web_playwright.AjaxTest" time="7.457"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
