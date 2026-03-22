@@ -9,8 +9,8 @@ on:
         required: true
         type: choice
         options:
-        - allure2
-        - allure3
+          - allure2
+          - allure3
 
 jobs:
   publish:
