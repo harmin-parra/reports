@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # required to push
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -25,7 +25,7 @@ jobs:
 
       - name: Modify homepage
         run: |
-          if [ ${{ inputs.allure }} = "allure2 ]; then
+          if [ ${{ inputs.allure }} = "allure2" ]; then
             cp allure2.html docs/index.html
           else
             cp allure3.html docs/index.html
