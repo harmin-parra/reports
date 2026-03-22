@@ -25,7 +25,8 @@ jobs:
 
       - name: Modify homepage
         run: |
-          if [ ${{ inputs.allure }} = "allure2" ]; then
+          ALLURE="${{ inputs.allure }}"
+          if [ "$ALLURE" = "allure2" ]; then
             cp allure2.html docs/index.html
           else
             cp allure3.html docs/index.html
